@@ -13,4 +13,5 @@ class ProductPageLocators:
     NAME_PRODUCT = (By.CSS_SELECTOR, '.product_main h1')
     PRICE_PRODUCT = (By.CSS_SELECTOR, '.product_main p')
     MESSAGE_ADD_TO_BASKET_NAME_PRODUCT = (By.CSS_SELECTOR, '.alertinner strong')
+    MESSAGE_ADD_PRODUCT_TO_PRODUCT = (By.CSS_SELECTOR, '.alertinner')
     BASKET_TOTAL = (By.CSS_SELECTOR, '.alertinner p strong')
